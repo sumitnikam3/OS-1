@@ -1,0 +1,203 @@
+sumit_nikam@SWAMI:~/LinuxAssignment1/new$ cd ..
+sumit_nikam@SWAMI:~/LinuxAssignment1$ ls
+docs  docs.zip  file1.txt  file2.txt  new
+sumit_nikam@SWAMI:~/LinuxAssignment1$ mkdir Linux2
+sumit_nikam@SWAMI:~/LinuxAssignment1$ cd Linux2
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat > data.txt
+Introduction to Java
+Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is intended to let application developers write once, and run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java was first released in 1995 and is widely used for developing applications for desktop, web, and mobile devices. Java is known for its simplicity, robustness, and security features, making it a popular choice for enterprise-level applications.
+
+JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1995 and later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy. It helps to create reusable code and modular programs. Java is a class-based, object-oriented programming language and is designed to have as few implementation dependencies as possible. A general-purpose programming language made for developers to write once run anywhere that is compiled Java code can run on all platforms that support Java. Java applications are compiled to byte code that can run on any Java Virtual Machine. The syntax of Java is similar to c/c++.
+
+History: Java’s history is very interesting. It is a programming language created in 1991. James Gosling, Mike Sheridan, and Patrick Naughton, a team of Sun engineers known as the Green team initiated the Java language in 1991. Sun Microsystems released its first public implementation in 1996 as Java 1.0. It provides no-cost -run-times on popular platforms. Java1.0 compiler was re-written in Java by Arthur Van Hoff to strictly comply with its specifications. With the arrival of Java 2, new versions had multiple configurations built for different types of platforms.
+
+In 1997, Sun Microsystems approached the ISO standards body and later formalized Java, but it soon withdrew from the process. At one time, Sun made most of its Java implementations available without charge, despite their proprietary software status. Sun generated revenue from Java through the selling of licenses for specialized products such as the Java Enterprise System.
+
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat data.txt
+Introduction to Java
+Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is intended to let application developers write once, and run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java was first released in 1995 and is widely used for developing applications for desktop, web, and mobile devices. Java is known for its simplicity, robustness, and security features, making it a popular choice for enterprise-level applications.
+
+JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1995 and later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy. It helps to create reusable code and modular programs. Java is a class-based, object-oriented programming language and is designed to have as few implementation dependencies as possible. A general-purpose programming language made for developers to write once run anywhere that is compiled Java code can run on all platforms that support Java. Java applications are compiled to byte code that can run on any Java Virtual Machine. The syntax of Java is similar to c/c++.
+
+History: Java’s history is very interesting. It is a programming language created in 1991. James Gosling, Mike Sheridan, and Patrick Naughton, a team of Sun engineers known as the Green team initiated the Java language in 1991. Sun Microsystems released its first public implementation in 1996 as Java 1.0. It provides no-cost -run-times on popular platforms. Java1.0 compiler was re-written in Java by Arthur Van Hoff to strictly comply with its specifications. With the arrival of Java 2, new versions had multiple configurations built for different types of platforms.
+
+In 1997, Sun Microsystems approached the ISO standards body and later formalized Java, but it soon withdrew from the process. At one time, Sun made most of its Java implementations available without charge, despite their proprietary software status. Sun generated revenue from Java through the selling of licenses for specialized products such as the Java Enterprise System.
+
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ head -20 data.txt
+Introduction to Java
+Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is intended to let application developers write once, and run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java was first released in 1995 and is widely used for developing applications for desktop, web, and mobile devices. Java is known for its simplicity, robustness, and security features, making it a popular choice for enterprise-level applications.
+
+JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1995 and later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy. It helps to create reusable code and modular programs. Java is a class-based, object-oriented programming language and is designed to have as few implementation dependencies as possible. A general-purpose programming language made for developers to write once run anywhere that is compiled Java code can run on all platforms that support Java. Java applications are compiled to byte code that can run on any Java Virtual Machine. The syntax of Java is similar to c/c++.
+
+History: Java’s history is very interesting. It is a programming language created in 1991. James Gosling, Mike Sheridan, and Patrick Naughton, a team of Sun engineers known as the Green team initiated the Java language in 1991. Sun Microsystems released its first public implementation in 1996 as Java 1.0. It provides no-cost -run-times on popular platforms. Java1.0 compiler was re-written in Java by Arthur Van Hoff to strictly comply with its specifications. With the arrival of Java 2, new versions had multiple configurations built for different types of platforms.
+
+In 1997, Sun Microsystems approached the ISO standards body and later formalized Java, but it soon withdrew from the process. At one time, Sun made most of its Java implementations available without charge, despite their proprietary software status. Sun generated revenue from Java through the selling of licenses for specialized products such as the Java Enterprise System.
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ head -5 data.txt
+Introduction to JavaLinuxAssignment1/Linux2$
+Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is intended to let application developers write once, and run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java was first released in 1995 and is widely used for developing applications for desktop, web, and mobile devices. Java is known for its simplicity, robustness, and security features, making it a popular choice for enterprise-level applications.
+
+JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1995 and later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy. It helps to create reusable code and modular programs. Java is a class-based, object-oriented programming language and is designed to have as few implementation dependencies as possible. A general-purpose programming language made for developers to write once run anywhere that is compiled Java code can run on all platforms that support Java. Java applications are compiled to byte code that can run on any Java Virtual Machine. The syntax of Java is similar to c/c++.
+
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ tail -5 data.txt
+
+History: Java’s history is very interesting. It is a programming language created in 1991. James Gosling, Mike Sheridan, and Patrick Naughton, a team of Sun engineers known as the Green team initiated the Java language in 1991. Sun Microsystems released its first public implementation in 1996 as Java 1.0. It provides no-cost -run-times on popular platforms. Java1.0 compiler was re-written in Java by Arthur Van Hoff to strictly comply with its specifications. With the arrival of Java 2, new versions had multiple configurations built for different types of platforms.
+
+In 1997, Sun Microsystems approached the ISO standards body and later formalized Java, but it soon withdrew from the process. At one time, Sun made most of its Java implementations available without charge, despite their proprietary software status. Sun generated revenue from Java through the selling of licenses for specialized products such as the Java Enterprise System.
+
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat > numbers.txt
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15. 16 17 18 19 20 21 22 23 24 25. 26 27 28 29 30 31 32 33 34 35. 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50.sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ seq -20 numbers.txt
+seq: invalid floating point argument: ‘numbers.txt’
+Try 'seq --help' for more information.
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ man seq
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ seq -f numbers.txt
+seq: missing operand
+Try 'seq --help' for more information.
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ rm numbers.txt
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ ls
+data.txt
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat > input.txt
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ rm input.txt
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ ls
+data.txt
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ tr [:lower:] data.txt
+^Z
+[1]+  Stopped                 tr [:lower:] data.txt
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ tr [:upper:]
+tr: missing operand after ‘[:upper:]’
+Two strings must be given when translating.
+Try 'tr --help' for more information.
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ man tr
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ tr [:lower:] data.txt [:upper:]
+tr: extra operand ‘[:upper:]’
+Try 'tr --help' for more information.
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ tr [:lower:] data.txt
+^Z
+[2]+  Stopped                 tr [:lower:] data.txt
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat data.txt
+Introduction to Java
+Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is intended to let application developers write once, and run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation. Java was first released in 1995 and is widely used for developing applications for desktop, web, and mobile devices. Java is known for its simplicity, robustness, and security features, making it a popular choice for enterprise-level applications.
+
+JAVA was developed by James Gosling at Sun Microsystems Inc in the year 1995 and later acquired by Oracle Corporation. It is a simple programming language. Java makes writing, compiling, and debugging programming easy. It helps to create reusable code and modular programs. Java is a class-based, object-oriented programming language and is designed to have as few implementation dependencies as possible. A general-purpose programming language made for developers to write once run anywhere that is compiled Java code can run on all platforms that support Java. Java applications are compiled to byte code that can run on any Java Virtual Machine. The syntax of Java is similar to c/c++.
+
+History: Java’s history is very interesting. It is a programming language created in 1991. James Gosling, Mike Sheridan, and Patrick Naughton, a team of Sun engineers known as the Green team initiated the Java language in 1991. Sun Microsystems released its first public implementation in 1996 as Java 1.0. It provides no-cost -run-times on popular platforms. Java1.0 compiler was re-written in Java by Arthur Van Hoff to strictly comply with its specifications. With the arrival of Java 2, new versions had multiple configurations built for different types of platforms.
+
+In 1997, Sun Microsystems approached the ISO standards body and later formalized Java, but it soon withdrew from the process. At one time, Sun made most of its Java implementations available without charge, despite their proprietary software status. Sun generated revenue from Java through the selling of licenses for specialized products such as the Java Enterprise System.
+
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ tr -d [:lower:] [:upper:]
+tr: extra operand ‘[:upper:]’
+Only one string may be given when deleting without squeezing repeats.
+Try 'tr --help' for more information.
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ tr -d [:lower:] [:upper:] data.
+txt
+tr: extra operand ‘[:upper:]’
+Try 'tr --help' for more information.
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ tr -d [lower] [upper] data.txt
+tr: extra operand ‘[upper]’
+Try 'tr --help' for more information.
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ tr -d [:lower:] [:upper:] data.
+txt
+tr: extra operand ‘[:upper:]’
+Try 'tr --help' for more information.
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ tr -d 'a-z' 'A-Z' data.txt
+tr: extra operand ‘A-Z’
+Try 'tr --help' for more information.
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ tr -d a-z A-Z data.txt
+tr: extra operand ‘A-Z’
+Try 'tr --help' for more information.
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ tr -d 'a-z' 'A-Z' data.txt
+tr: extra operand ‘A-Z’
+Try 'tr --help' for more information.
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat > input.txt
+ABCDEFGHIsumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ tr -d 'a-z' 'A-Z' he t
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ tr -d [:lower:] [:upper:] input
+.txt
+tr: extra operand ‘[:upper:]’
+Try 'tr --help' for more information.
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ tr -d [:lower:] input.txt
+tr: extra operand ‘input.txt’
+Only one string may be given when deleting without squeezing repeats.
+Try 'tr --help' for more information.
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ tr -d [:upper:] [:lower:] input
+.txt
+tr: extra operand ‘[:lower:]’
+Try 'tr --help' for more information.
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat input.txt | tr [:lower:] [:upper:]
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ /Linux2$ cat input.txt | tr [:lower:]
+tr: misaligned [:upper:] and/or [:lower:] construct
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat input.txt | tr -d [:lower:]
+ABCDEFGHIsumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$  tr -d [:lower:] data.txt
+tr: extra operand ‘data.txt’
+Only one string may be given when deleting without squeezing repeats.
+Try 'tr --help' for more information.
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat input.txt | tr [:lower:] [:lower:]
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat input.txt | tr 'a-z' 'A-Z'
+ABCDEFGHIsumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat input.txt | tr 'a-z' 'A-Z' < input.txt > output.txt
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat output.txt
+ABCDEFGHIsumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat input.txt
+ABCDEFGHIsumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat input.txt | tr 'a-z' 'A-Z' < output.txt > input.txt
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat input.txt | tr 'A-Z' 'a-z' < output.txt > input.txt
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat input.txt
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat > duplicate.txt
+aa bb cc dd ee ff ggg
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ uniq duplicate.txt
+aa bb cc dd ee ff ggg
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ rm duplicate
+rm: cannot remove 'duplicate': No such file or directory
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ rm duplicate.txt
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat > duplicate.txt
+aa
+aa
+aa
+bb
+bb
+bb
+cc
+cc
+cc
+dd
+dd
+ddsumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ uniq duplicate.txt
+aa
+bb
+cc
+dd
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat duplicate.txt
+aa
+aa
+aa
+bb
+bb
+bb
+cc
+cc
+cc
+dd
+dd
+ddsumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ vi duplicate.txt
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ uniq -u duplicate.txt
+jj
+kk
+ll
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ cat > fruit.txt
+mango
+mango
+banana
+pineapple
+chickusumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ uniq fruit.txt
+mango
+mango
+banana
+pineapple
+chicku
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ uniq -u fruit.txt
+mango
+mango
+banana
+pineapple
+chicku
+sumit_nikam@SWAMI:~/LinuxAssignment1/Linux2$ uniq -c fruit.txt
+      1 mango
+      1 mango
+      1 banana
+      1 pineapple
+      1 chicku
